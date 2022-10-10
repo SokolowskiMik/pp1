@@ -1,0 +1,4 @@
+1.dzielenie jest liczbą rzeczywistą, czyli typ danych float
+2.modulo ma priorytet jaka dzielenie
+3. zadanie 8 ale bez zmiennej pomocniczej
+4.print(f"i zmienna w nawiasie klamrowym")
