@@ -1,0 +1,20 @@
+1.  
+        number = 0
+    total = 0
+    count = 0
+
+    while True:
+        number = input('Enter a number: ')
+        if number == 'done':
+            break
+        try:
+            num1 = float(number)
+        except:
+            print('Invalid Input')
+            continue
+        count += 1
+        total = num1 + total
+
+    print(total, count,  total / count)
+
+2.
