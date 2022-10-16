@@ -2,6 +2,7 @@ import random
 
 print('I rolled a dice 1-6: ')
 roll = random.randrange(6) + 1
+roll = random.randint(1, 6)
 guess = ""
 guess_count = 0
 guess_limit = 2
