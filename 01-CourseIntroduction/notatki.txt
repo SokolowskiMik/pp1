@@ -5,3 +5,5 @@
 5. try: i except:
 6.Use the round() function to round a float to 3 decimal places, e.g. result = round(6.36789, 3) 
 7.value = 3.3333333333 formatted_string = "{:.2f}".format(value)  float_value = float(formatted_string) print(float_value)
+8.len()
+9.sum()
