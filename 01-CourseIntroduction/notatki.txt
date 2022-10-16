@@ -7,3 +7,5 @@
 7.value = 3.3333333333 formatted_string = "{:.2f}".format(value)  float_value = float(formatted_string) print(float_value)
 8.len()
 9.sum()
+10.max()
+11.min()
