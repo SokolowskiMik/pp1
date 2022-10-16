@@ -18,3 +18,28 @@
     print(total, count,  total / count)
 
 2.
+    number = 0
+    count = 0
+    total = 0
+    l = None #largest
+    s = None #smallest
+
+    while True:
+        number = input('Enter a number:')
+        if number == 'done':
+            break
+        try:
+            num1 = float(number)
+        except:
+            print('Invalid input')
+            continue
+        count += 1
+        total = total + num1
+        if l is None or num1 > l:
+            l = num1
+        if s is None or num1 < s:
+            s = num1
+    print(total, count,"maksimum:", l,"minimum:", s)
+
+3. tyle heh
+
