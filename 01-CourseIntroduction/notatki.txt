@@ -9,3 +9,58 @@
 9.sum()
 10.max()
 11.min()
+12.for char in fruit:
+print(char)
+13. slice 
+    >>> s = 'Monty Python'
+    >>> print(s[0:5])
+    Monty
+    >>> print(s[6:12])
+    Python
+14.
+    >>> stuff = 'Hello world'
+    >>> type(stuff)
+    <class 'str'>
+    >>> dir(stuff)
+    ['capitalize', 'casefold', 'center', 'count', 'encode',
+    'endswith' , 'expandtabs', 'find', 'format', 'format_map',
+    'index' , 'isalnum', 'isalpha', 'isdecimal', 'isdigit',
+    'isidentifier' , 'islower', 'isnumeric', 'isprintable',
+    'isspace' , 'istitle', 'isupper', 'join', 'ljust', 'lower',
+    'lstrip' , 'maketrans', 'partition', 'replace', 'rfind',
+    'rindex' , 'rjust', 'rpartition', 'rsplit', 'rstrip',
+    'split' , 'splitlines', 'startswith', 'strip', 'swapcase',
+    'title' , 'translate', 'upper', 'zfill']
+    >>> help(str.capitalize)
+    Help on method_descriptor:
+
+15.
+    >>> word = 'banana'
+    >>> new_word = word.upper()
+    >>> print(new_word)
+    BANANA
+16. 
+    >>> word = 'banana'
+    >>> index = word.find('a')
+    >>> print(index)
+    1
+    >>> word.find('na')
+    2
+    >>> word.find('na', 3)
+    4
+
+17.
+    >>> line = ' Here we go '
+    >>> line.strip()
+    'Here we go'
+
+18.
+    >>> line = 'Have a nice day'
+    >>> line.startswith('h')
+    False
+    >>> line.lower()
+    'have a nice day'
+    >>> line.lower().startswith('h')
+    True
+
+
