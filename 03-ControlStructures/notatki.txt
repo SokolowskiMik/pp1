@@ -1,1 +1,2 @@
 round(float_variable, ilość miejsc po przecinku)
+2. aby wyswietlic wszystko w jedne lini dajemy end=" " po zmiennej w pętli
