@@ -8,4 +8,4 @@ def count(word, letter):
 
 input_word = input('Enter a word: ')
 input_letter = input('Enter a letter: ')
-count(input_word, input_letter)
+count(input_word.lower(), input_letter.lower())
