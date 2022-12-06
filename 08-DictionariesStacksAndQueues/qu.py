@@ -22,6 +22,6 @@ def empty():
 
 # display queue
 def display():
-    for i in range(len(queue)-1):
+    for i in range(len(queue)):
         print(queue[i])
     print()

@@ -1,0 +1,13 @@
+import qu
+qu.push(14)
+qu.push(9)
+qu.display()
+print()
+qu.push(31)
+qu.push(6)
+qu.display()
+print()
+x = qu.pop()
+y = qu.pop()
+print(x, y)
+qu.display()
