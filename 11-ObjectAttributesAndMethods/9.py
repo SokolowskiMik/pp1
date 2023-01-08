@@ -22,7 +22,7 @@ class Arrays():
 
     @staticmethod
     def num_of_el(array,m,n):
-        ile = dict
+        ile = dict()
         for i in array:
             if i in range(-1, 2, 1):
                 i = str(i)
